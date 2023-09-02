@@ -18,18 +18,6 @@ You can install the package via composer:
 composer require renoki-co/cloudflare-sdk
 ```
 
-Publish the config:
-
-```bash
-php artisan vendor:publish --provider="RenokiCo\CloudflareSdk\CloudflareSdkServiceProvider" --tag="config"
-```
-
-Publish the migrations:
-
-```bash
-php artisan vendor:publish --provider="RenokiCo\CloudflareSdk\CloudflareSdkServiceProvider" --tag="migrations"
-```
-
 ## 🙌 Usage
 
 ```php

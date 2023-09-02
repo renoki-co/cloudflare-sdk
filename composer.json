@@ -1,7 +1,24 @@
 {
     "name": "renoki-co/cloudflare-sdk",
-    "description": ":package_description",
-    "keywords": ["laravel", "php"],
+    "description": "Cloudflare SDK generated automatically from the OpenAPI definitions.",
+    "keywords": [
+        "laravel",
+        "php",
+        "cloudflare",
+        "cf",
+        "api",
+        "sdk",
+        "client",
+        "openapi",
+        "openapi-generator",
+        "cloudflare-sdk",
+        "cloudflare-api",
+        "cloudflare-php",
+        "cloudflare-laravel",
+        "cloudflare-laravel-sdk",
+        "cloudflare-laravel-api",
+        "cloudflare-laravel-php"
+    ],
     "license": "Apache-2.0",
     "homepage": "https://github.com/renoki-co/cloudflare-sdk",
     "authors": [
@@ -28,7 +45,6 @@
         "test": "vendor/bin/phpunit"
     },
     "require-dev": {
-        "laravel/legacy-factories": "^1.1",
         "mockery/mockery": "^1.4",
         "orchestra/testbench": "^7.14",
         "vimeo/psalm": "4.24.0"
